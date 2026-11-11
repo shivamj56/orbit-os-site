@@ -28,6 +28,12 @@
   .grid .card { margin: 0; }
   .grid h3 { margin-top: 0; }
   .grid p { margin: 6px 0 0; }
+  .qa { padding: 0; margin: 12px 0; }
+  .qa summary { cursor: pointer; padding: 16px 20px; font-weight: 600; color: var(--ink); list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+  .qa summary::-webkit-details-marker { display: none; }
+  .qa summary::after { content: "+"; color: var(--accent); font-size: 1.3em; line-height: 1; }
+  .qa[open] summary::after { content: "–"; }
+  .qa p { margin: 0; padding: 0 20px 18px; }
 </style>
 </head>
 <body>
@@ -54,6 +60,16 @@
     <div class="card"><h3>Undo everything</h3><p>Every change is written down first. One tap brings back the TV's own home screen, apps and settings.</p></div>
     <div class="card"><h3>Private by design</h3><p>No ads, no trackers. Sign-in is optional, and backups go to your own Google Drive.</p></div>
   </div>
+
+  <h2>Questions</h2>
+  <details class="card qa" open>
+    <summary>Will Orbit affect my TV's warranty?</summary>
+    <p>Orbit doesn't root your TV, unlock it or change its firmware. It uses Android's own developer settings, installs two ordinary apps and switches off, never deletes, the preinstalled apps you choose, and Undo puts everything back. The warranty terms are your TV maker's, so if the TV ever goes for repair, use <strong>Undo everything</strong> in Orbit first and it is just as it came.</p>
+  </details>
+  <details class="card qa">
+    <summary>Can I go back to how my TV was?</summary>
+    <p>Yes. In Orbit, open Settings › This TV › Undo Orbit OS on this TV. Every app comes back on and the TV's own home screen returns.</p>
+  </details>
 
   <h2>Help make Orbit better</h2>
   <p>Orbit is tested on the Xiaomi TV A Pro, and more TVs are coming. Tell us how it runs on yours, report a problem or suggest an idea in <a href="https://github.com/shivamj56/orbit-os-site/issues">GitHub issues</a>.</p>
