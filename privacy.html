@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy policy · Orbit OS</title>
+<meta name="description" content="How the Orbit OS app (dev.shiv.orbit) handles your data: what stays on your phone and TV, what goes to Google, and how to delete it.">
+<link rel="icon" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><a href="./"><img src="assets/icon-180.png" alt=""><span class="brand">Orbit <b>OS</b></span></a></header>
+
+  <h1>Privacy policy</h1>
+  <p class="meta">For the Android app <strong>Orbit OS: TV Remote &amp; Setup</strong> (package <code>dev.shiv.orbit</code>) and the Orbit apps it puts on your TV. Effective 11 November 2026.</p>
+
+  <div class="note"><p>In short: Orbit has no ads, no analytics and no trackers, and nothing is sold or shared. Most of what Orbit knows stays on your phone and your TV. Signing in with Google is optional; if you do, a small amount of data goes to Google's Firebase so your phone can reach your TV away from home, and your backups go to your own Google Drive. You can delete all of it from the app.</p></div>
+
+  <h2>Who we are</h2>
+  <p>Orbit OS is made by <strong>Shivam Anil Jha</strong>, an independent developer in India. On Google Play it is published through the developer account of Om Shri Hari Trading Pvt Ltd. Questions about this policy or your data: <a href="mailto:heyshivm2002@gmail.com">heyshivm2002@gmail.com</a>.</p>
+
+  <h2>What stays on your phone and your TV</h2>
+  <p>These never leave your home network and are not sent to us:</p>
+  <ul>
+    <li><strong>Your TV's address and its pairing key.</strong> Kept on your phone, in Android's encrypted keystore, so the remote can talk to the TV over your Wi-Fi.</li>
+    <li><strong>The set-up record.</strong> Before Orbit changes anything on a TV it writes down the change (which preinstalled apps it switched off, the home screen it replaced, the settings it changed) on the phone and on the TV, so Undo can put everything back.</li>
+    <li><strong>The name your TV greets you with.</strong> Stored on the TV.</li>
+    <li><strong>The phone's debugging key.</strong> To set up a TV, Orbit uses Android's own debugging connection on your home network. The phone makes its own key for this; the TV keeps only the public half after you allow the phone on the TV's screen.</li>
+  </ul>
+  <p>Remote commands sent over your Wi-Fi go straight from the phone to the TV.</p>
+
+  <h2>If you sign in with Google (optional)</h2>
+  <p>Signing in lets your phone reach your TV from anywhere and keeps backups in your Google Drive. It uses Google services, under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>:</p>
+  <div class="table"><table>
+    <tr><th>Data</th><th>Why</th><th>Where and how long</th></tr>
+    <tr><td>Your Google account's email address, name and a user ID</td><td>To sign you in, and so your phone and TV recognise the same account</td><td>Firebase Authentication (Google). Kept until you delete your account.</td></tr>
+    <tr><td>Your TV's name, when it was last online, and its current state (what is playing, the volume, the app list and app icons when the phone asks)</td><td>So the remote works away from home</td><td>Firebase Realtime Database (Google, Singapore). Only your signed-in account can read or write it. The state is replaced as it changes; deleted with your account.</td></tr>
+    <tr><td>Remote commands sent while you are away from home, and the TV's answers</td><td>To pass them between your phone and your TV</td><td>Same database. Each command is deleted once the TV answers, and each answer once the phone reads it.</td></tr>
+    <tr><td>A short linking code</td><td>To link a TV to your account once</td><td>Same database, deleted as soon as the TV is linked (codes last up to 10 minutes).</td></tr>
+    <tr><td>Backups of your TV's original set-up: the list of apps on the TV and their state, the home screen setting and the TV settings Orbit changes</td><td>So you can restore the TV even if the phone is lost</td><td>Your own Google Drive, in a hidden folder that only Orbit can open. We cannot see it. Kept until you delete the backup or your account.</td></tr>
+  </table></div>
+  <p>All traffic to Google and Firebase is encrypted (HTTPS). Orbit asks Google only for your basic profile and for its own hidden folder in your Drive; it cannot see your other Drive files.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No advertising, no advertising ID, no analytics or crash-reporting SDKs.</li>
+    <li>We do not sell, rent or share your data with anyone. Google processes the data above only to provide its services to the app.</li>
+    <li>Orbit does not read your contacts, messages, photos, location, microphone or camera.</li>
+  </ul>
+
+  <h2 id="delete">Deleting your account and data</h2>
+  <ol>
+    <li>In the app, open <strong>Settings</strong> and tap <strong>Delete my Orbit account</strong>. This deletes your data in the Realtime Database and your Orbit account, and, if you leave the box ticked, your TV backups in Google Drive. Nothing changes on your TV.</li>
+    <li>Or email <a href="mailto:heyshivm2002@gmail.com">heyshivm2002@gmail.com</a> from your account's address with the subject "Delete my Orbit account". We delete everything within 30 days and reply when it is done.</li>
+  </ol>
+  <p>You can also remove Orbit's access to your Google account at any time at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>. To undo Orbit on a TV, use <strong>Undo everything</strong> in the app. See <a href="delete-account.html">Delete your Orbit account</a> for the details.</p>
+
+  <h2>Children</h2>
+  <p>Orbit is a tool for adults setting up their own TV. It is not meant for children under 13, and we do not knowingly collect data from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date. A change that collects new kinds of data will also be shown in the app before it applies.</p>
+
+  <footer>Orbit OS by Shivam Anil Jha · <a href="./">Home</a> · <a href="delete-account.html">Delete your account</a> · <a href="https://github.com/shivamj56/orbit-os-site/issues">Report a problem</a></footer>
+</div>
+</body>
+</html>

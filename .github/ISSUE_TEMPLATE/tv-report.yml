@@ -1,0 +1,31 @@
+name: TV report
+description: Tell us how Orbit runs on your TV.
+title: "TV report: <brand and model>"
+labels: ["tv-report"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: TV brand and model
+      description: As shown in the TV's Settings › About (for example Xiaomi TV A Pro, MiTV-AXFU0).
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android TV / Google TV version
+  - type: dropdown
+    id: result
+    attributes:
+      label: How did set-up go?
+      options:
+        - Everything worked
+        - Worked, with small problems
+        - Did not finish
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What happened
+      description: Anything that did not work, or apps that should be kept or switched off on this model.

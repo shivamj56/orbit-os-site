@@ -1,0 +1,66 @@
+/* Orbit OS public pages: the app's night palette, with a daylight version for readers who prefer it. */
+:root {
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --ink: #111532;
+  --soft: #454c70;
+  --faint: #6e7493;
+  --line: #e1e4ef;
+  --accent: #0b6bc8;
+  --accent-soft: #e5f0fb;
+  --warn-soft: #fff3df;
+  --warn: #8a5300;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #05070d;
+    --surface: #0d1222;
+    --ink: #eef1ff;
+    --soft: #b3bbda;
+    --faint: #848cad;
+    --line: #1d2440;
+    --accent: #74d1ff;
+    --accent-soft: #0f2338;
+    --warn-soft: #2b2110;
+    --warn: #ffc46b;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 17px/1.7 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 36px 0 80px; }
+header.top { display: flex; align-items: center; gap: 12px; }
+header.top a { display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; }
+header.top img { width: 40px; height: 40px; border-radius: 11px; }
+.brand { font: 400 1.35rem/1 "Outfit", system-ui, sans-serif; letter-spacing: -0.01em; }
+.brand b { font-weight: 600; }
+h1, h2, h3 { font-family: "Outfit", system-ui, sans-serif; line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 5vw, 2.7rem); font-weight: 600; letter-spacing: -0.015em; margin: 40px 0 8px; }
+h2 { font-size: 1.4rem; font-weight: 600; margin: 44px 0 6px; }
+h3 { font-size: 1.1rem; font-weight: 600; margin: 26px 0 4px; }
+p, li { color: var(--soft); }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--accent); }
+.meta { color: var(--faint); font-size: 0.92rem; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin: 18px 0; }
+.note { background: var(--accent-soft); border-radius: 14px; padding: 14px 18px; margin: 18px 0; }
+.note p { margin: 0; color: var(--ink); }
+ol li, ul li { margin: 0.35em 0; }
+table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+th { color: var(--ink); font-weight: 600; }
+.table { overflow-x: auto; }
+code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.88em; background: var(--accent-soft); padding: 0.05em 0.35em; border-radius: 6px; }
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0; }
+.btn { display: inline-flex; align-items: center; gap: 8px; min-height: 46px; padding: 0 18px; border-radius: 999px; font-weight: 600; text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--surface); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--faint); font-size: 0.9rem; }
+footer a { color: var(--faint); }

@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in Orbit does not work as it should.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model and Android version
+  - type: input
+    id: tv
+    attributes:
+      label: TV brand and model
+  - type: input
+    id: version
+    attributes:
+      label: Orbit version
+      description: In the app, Settings › About.
