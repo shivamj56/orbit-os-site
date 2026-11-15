@@ -18,13 +18,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shivamj56/orbit-os-site/stargazers"><img src="https://img.shields.io/github/stars/shivamj56/orbit-os-site?style=flat&logo=github&label=Stars" alt="GitHub stars"></a>
+  <a href="https://github.com/shivamj56/orbit-os"><img src="https://img.shields.io/github/stars/shivamj56/orbit-os?style=flat&logo=github&label=Stars%20on%20the%20code" alt="Stars on the Orbit OS code"></a>
+  <a href="https://github.com/shivamj56/orbit-os/blob/main/LICENSE"><img src="https://img.shields.io/badge/licence-GPL--3.0-7EE2B8" alt="Licence: GPL-3.0"></a>
   <img src="https://img.shields.io/badge/price-free%2C_no_ads-7c5cff" alt="Free, no ads">
 </p>
 
 <p align="center"><img src="assets/before-after.gif" width="520" alt="The same Google TV before Orbit, with half the home screen taken by an ad and rows of promoted shows, and after Orbit, with a home screen of only the apps you use"><br><sub>Our own TV, before and after. The ad and the posters are blurred.</sub></p>
 
-<p align="center">⭐ <b>Star this repo</b> to follow Orbit as it learns more TVs, and to help other TV owners find it.</p>
+<p align="center">💻 <b>Orbit OS is open source.</b> The code, the issues and the pull requests live in <a href="https://github.com/shivamj56/orbit-os"><b>shivamj56/orbit-os</b></a>: a ⭐ there helps other TV owners and developers find it.</p>
 
 <p align="center"><img src="assets/tv-home.jpg" width="760" alt="Orbit Home on a Google TV: a curved row of the apps you use, a greeting, the date and the weather"></p>
 
@@ -48,8 +49,8 @@ This repository is Orbit's public home: the website, the privacy policy, and the
 - **Found a problem?** Open a [bug report](https://github.com/shivamj56/orbit-os-site/issues/new?template=bug.yml).
 - **Have an idea?** Open an [idea](https://github.com/shivamj56/orbit-os-site/issues/new?template=idea.yml).
 
-If Orbit made your TV nicer, a ⭐ on this repository helps other people find it, and sharing the [website](https://orbit-os-tv.vercel.app/) with a friend who has an Android TV helps even more.
+If Orbit made your TV nicer, a ⭐ on [the code](https://github.com/shivamj56/orbit-os) helps other people find it, and sharing the [website](https://orbit-os-tv.vercel.app/) with a friend who has an Android TV helps even more.
 
 ## About
 
-Orbit OS is made by **Shivam Anil Jha**. Orbit's source code is private; this repository holds only the public website and documents. Copyright © 2026 Shivam Anil Jha. All rights reserved.
+Orbit OS is made by **Shivam Anil Jha**, and it is open source under the GPL-3.0: the code lives in **[shivamj56/orbit-os](https://github.com/shivamj56/orbit-os)**. This repository holds the public pages (privacy policy, account deletion) and the place to send TV reports.
