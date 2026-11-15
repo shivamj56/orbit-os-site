@@ -17,6 +17,10 @@
   <img src="https://img.shields.io/badge/price-free%2C_no_ads-7c5cff" alt="Free, no ads">
 </p>
 
+<p align="center"><img src="assets/before-after.gif" width="520" alt="The same Google TV before Orbit, with half the home screen taken by an ad and rows of promoted shows, and after Orbit, with a home screen of only the apps you use"><br><sub>Our own TV, before and after. The ad and the posters are blurred.</sub></p>
+
+<p align="center">⭐ <b>Star this repo</b> to follow Orbit as it learns more TVs, and to help other TV owners find it.</p>
+
 <p align="center"><img src="assets/tv-home.jpg" width="760" alt="Orbit Home on a Google TV: a curved row of the apps you use, a greeting, the date and the weather"></p>
 
 <p align="center"><img src="assets/phone-find-tv.jpg" width="560" alt="The Orbit phone app finding the TV on the home Wi-Fi and asking for the pairing code"></p>
