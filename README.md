@@ -5,6 +5,12 @@
 <p align="center"><b>A smart TV remote that also sets up your TV.</b><br>Your phone sets up a Google TV or Android TV in about five minutes: a calm home screen, the bloat switched off, and every change undone with one tap. Free, no ads.</p>
 
 <p align="center">
+  <a href="https://play.google.com/store/apps/details?id=dev.shiv.orbit&referrer=utm_source%3Dgithub%26utm_medium%3Dreadme"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="84" alt="Get it on Google Play"></a>
+</p>
+
+<p align="center"><b>Try it on your TV tonight:</b> free, no ads, set up in about five minutes, and undone in one tap.</p>
+
+<p align="center">
   <a href="https://orbit-os-tv.vercel.app/">Website and demo</a> ·
   <a href="https://play.google.com/store/apps/details?id=dev.shiv.orbit">Google Play</a> ·
   <a href="https://shivamj56.github.io/orbit-os-site/privacy.html">Privacy</a> ·
@@ -12,7 +18,6 @@
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=dev.shiv.orbit"><img src="https://img.shields.io/badge/Google_Play-Get_Orbit_OS-1f8f4e?logo=googleplay&logoColor=white" alt="Get Orbit OS on Google Play"></a>
   <a href="https://github.com/shivamj56/orbit-os-site/stargazers"><img src="https://img.shields.io/github/stars/shivamj56/orbit-os-site?style=flat&logo=github&label=Stars" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/price-free%2C_no_ads-7c5cff" alt="Free, no ads">
 </p>
